@@ -1,0 +1,86 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<nav>
+	<ul>
+		<li>
+			<a class="active" href="#dash">Dashboard</a>
+			<a href="#forms">FORMS</a>
+			<a href="#charts">CHARTS</a>		
+		</li>
+	</ul>
+</nav>
+<section id="dash">
+	<div id="booked">
+		<div class="head">Booked Rooms</div>
+	</div>
+	<div id="reserved">
+		<div class="head">Reserved Rooms</div>
+	</div>
+	<div id="avilable">
+		<div class="head">Avilable Rooms</div>
+	</div>
+</section>
+<section id="forms">
+	
+	<div id="eroom">
+		
+		<form>
+			<div><h1>Edit Room</h1>
+		</div>
+			<label for="oname">Owner Name:</label>
+				<input type="text" name="oname" id="oname"><br>
+			<label for="oemail">Owner Email:</label>
+				<input type="text" name="oemail" id="oemail"><br>
+			<label for="ophone">Owner Phone:</label>
+				<input type="number" name="ophone" id="ophone"><br>
+			<label for="rlocation">Room Location:</label>
+				<input type="text" name="rlocation" id="rlocation"><br>
+			<label for="rsize">Room size:</label>
+				<input type="text" name="rsize" id="rsize"><br>
+			<label for="rdes">Room Discription:</label>
+				<input type="text" name="rdes" id="rdes"><br>
+			<label for="">Room Image:</label>
+		</form>
+	</div>
+</section>
+<section id="charts">
+	<div>
+		<table id="roomManage">
+  			<tr>
+    		<th>Room Id</th>
+    		<th>Room Location</th>
+    		<th>Action</th>
+  			</tr>
+  			<tr>
+    		<td>01102</td>
+    		<td>Bagar</td>
+    		<td><a href="edit.php" ><span>Edit</span> <a href="delete.php"><span>Delete</span></td>
+  			</tr>
+  			<tr>
+    		<td>01104</td>
+    		<td>Simpani</td>
+    		<td><a href="edit.php" ><span>Edit</span> <a href="delete.php"><span>Delete</span></td>
+  			</tr>
+  			<tr>
+    		<td>01106</td>
+    		<td>AmarSingh</td>
+    		<td><a href="edit.php" ><span>Edit</span> <a href="delete.php"><span>Delete</span></td>
+  			</tr>
+  		</table>
+
+	</div>
+</section>
+
+
+<footer>
+</footer>
+
+
+</body>
+
+</html>

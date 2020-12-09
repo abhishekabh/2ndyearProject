@@ -1,0 +1,130 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin:0;
+	padding:0;
+	
+}
+section{
+	/*background-image:url("background.png");*/
+	/*background-color: yellow;*/
+	border-bottom: 5px solid black;
+	height:100%;
+	width:80%;
+	background-size:cover;
+	float: right;
+	overflow: hidden;
+	background-color: lightgray;
+}
+nav{
+	height:100%;
+	width:20%;
+	 background-image: linear-gradient(to left, rgba(0,0,0,0.2), rgba(0,0,0,0.8));
+	float: left;
+	/*box-shadow: 8px 5px 30px  black;*/
+	position: fixed;
+
+}
+ul {
+  list-style-type: none;
+  margin-top: 50px;
+  padding: 10px;
+  width: 96%;
+}
+li a {
+	font-family: verdana;
+  display: block;
+  color: #000;
+  padding: 8px 15px 9px;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 15px;
+  /*background-color: #f1f1f1;*/
+}
+li a:hover {
+  /*background-color: #555;*/
+  background-image: linear-gradient(to left, rgba(0,0,0,0.1), rgba(0,0,0,0.8));
+  color: white;
+}
+li a.active{
+	/*background-color: #555;*/
+	background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.8));
+	color: white;
+}
+/*.............FORMS...................*/
+#eroom{
+	height: 400px;
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 10px;
+	padding-left: 15px;
+	padding-top: 10px;
+	background-color: gray;
+	border-radius: 15px;
+	box-shadow:  2px 10px 10px ;
+}
+input[type=text,number], select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+#eroom h1{
+	background-color: orange;
+	float: top;
+	width: 100%;
+}
+/*..............TABLE...........*/
+
+#roomManage {
+	margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#roomManage td, #roomManage th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#roomManage tr:nth-child(even){background-color: #f2f2f2;}
+
+#roomManage tr:hover {background-color: #ddd;}
+#roomManage span{padding-right: 15px;}
+
+#roomManage th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: orange;
+  color: white;
+}
+td a{text-decoration: none}
+
+/*.....Dash.........*/
+.head{
+	height: 30px;
+	width: 100%;
+	background-color: orange;
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+	padding-top: 2px;
+}
+#booked , #reserved , #avilable{
+	height: 100px;
+	width: 150px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: white;
+	border-radius: 10px;
+
+}
+
